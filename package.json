@@ -4,7 +4,8 @@
   "description": "Complete Web Development Course Project 2hours",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "nodemon src/app.js"
   },
   "author": "Kishan Kumar",
   "license": "ISC",
