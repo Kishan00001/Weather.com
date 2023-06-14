@@ -28,7 +28,16 @@ app.get("/about",(req,res)=>{
 app.get("/weather",(req,res)=>{
     res.render("weather.hbs");
 });
-
+// app.get("/weather/*",(req,res)=>{
+//     res.render("404error.hbs",{
+//         errorMsg:'Oops! Page Not Found',
+//     });
+// });
+// app.get("/about/",(req,res)=>{
+//     res.render("404error.hbs",{
+//         errorMsg:'Oops! Page Not Found',
+//     });
+// });
 app.get("*",(req,res)=>{
     res.render("404error.hbs",{
         errorMsg:'Oops! Page Not Found',
